@@ -68,16 +68,12 @@ p{
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 20px;
-    font-weight: 500;
 }
 
 /*global*/
-.green{
-    color: #00b394;
-
+.textGreen{
+    color:#18AE8F;
 }
-
 
 .container {
     margin: 0 auto;
@@ -118,6 +114,7 @@ nav img{
     max-height: 100px;
 }
 
+
 nav ul{
     font-size: 18px;
     font-weight: 500;
@@ -137,25 +134,33 @@ nav ul{
 }
 
 @media screen and (max-width: 1000px) {
- /*SPACE FOR BURGER-MENU*/
+    /*SPACE FOR BURGER-menu*/
 }
 
-/*Footer*/
-
-
-.footer {
+/*footer*/
+.footer{
+    background-color: white;
     display: flex;
     flex-direction: row;
-    background-color: white;
-    padding: 20px 0;
-    gap: 16px;
+    gap: 55px;
+    justify-content: center;
+    padding-top: 5px;
+}
+.footerText{
+    font-weight: 700;
 }
 
-.socialIcons a {
-    margin-right: 10px;
+.footerText p{
+    line-height: 20px;
 }
 
-.socialIcons img {
-    width: 24px;
-    height: 24px;
+.footerIcons img{
+    width: 25px;
+    height: 25px;
+}
+
+.bottomSection{
+    padding: 7px;
+    display: flex;
+    justify-content: center;
 }
